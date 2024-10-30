@@ -1,0 +1,13 @@
+<div *ngIf="entities; else loading">
+	<ul>
+		<li *ngFor="let entity of entities">
+			{{ entity.id }}: {{ entity.name }} - {{ entity.date }}
+		</li>
+	</ul>
+</div>
+<ng-template #loading>
+	<div class="filler">
+		<div class="loader">
+		</div>
+	</div>
+</ng-template>
