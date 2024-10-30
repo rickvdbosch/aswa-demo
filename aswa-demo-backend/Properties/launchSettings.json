@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "aswa_demo_backend": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7121",
+      "launchBrowser": false
+    }
+  }
+}
