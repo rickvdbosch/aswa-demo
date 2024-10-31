@@ -1,0 +1,26 @@
+{
+	"navigationFallback": {
+	  "rewrite": "index.html"
+	},
+	"routes": [
+		{
+			"route": "/login",
+			"redirect": "/.auth/login/aad"
+		},
+		{
+			"route": "/RFC2324",
+			"statusCode": 418,
+			"allowedRoles": ["anonymous"]
+		},
+		{
+			"route": "/*",
+			"allowedRoles": ["authenticated"]
+		}
+	],
+	"responseOverrides": {
+		"401": {
+			"redirect": "/login",
+			"statusCode": 200
+		}
+	}
+}
