@@ -21,7 +21,7 @@ namespace aswa_demo_backend
                 new Entity { Id = 3, Name = "Sponsor: Coding After Work", Date = new DateOnly(2024, 10, 31) },
                 new Entity { Id = 4, Name = "Sponsor: CAB", Date = new DateOnly(2024, 10, 31) },
                 new Entity { Id = 5, Name = "Organization: Stacy Cashmore", Date = new DateOnly(2024, 10, 31) },
-                new Entity { Id = 6, Name = "Organization: Jessica Engstr&ouml;m", Date = new DateOnly(2024, 10, 31) },
+                new Entity { Id = 6, Name = "Organization: Jessica Engstrom", Date = new DateOnly(2024, 10, 31) },
                 new Entity { Id = 7, Name = "Organization: Kirsten Duurkoop", Date = new DateOnly(2024, 10, 31) }
             };
 
